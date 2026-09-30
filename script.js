@@ -158,7 +158,7 @@ function orderWhatsApp() {
 
   message += "%0Aمن متجر المتولي إليكتريك.";
 
-  const phone = "201000000000";
+  const phone = "201155277706";
 
   window.open(
     `https://wa.me/${phone}?text=${message}`,
