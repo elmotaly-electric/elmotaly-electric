@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المتولي إليكتريك | أجهزة كهربائية منزلية</title>
+  <meta name="description" content="المتولي إليكتريك - أجهزة كهربائية منزلية">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="logo" href="#"><span>المتولي</span><small>إليكتريك</small></a>
+      <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#categories">الأقسام</a>
+        <a href="#products">المنتجات</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+      <button class="cart" aria-label="سلة المشتريات">🛒 <b id="cartCount">0</b></button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">المتولي إليكتريك</p>
+          <h1>كل أجهزة بيتك<br><strong>في مكان واحد</strong></h1>
+          <p class="hero-text">غسالات، ثلاجات، تكييفات، شاشات، بوتاجازات وأكثر — اختار جهازك بسهولة.</p>
+          <a class="primary-btn" href="#products">تسوق الآن</a>
+        </div>
+        <div class="hero-card">
+          <div class="hero-icon">⚡</div>
+          <h3>أجهزة كهربائية منزلية</h3>
+          <p>اختيارات متنوعة وأسعار تناسب احتياجاتك</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div><span class="eyebrow">تصفح المتجر</span><h2>الأقسام</h2></div>
+        </div>
+        <div class="categories">
+          <a class="category" href="#products">🧊<span>ثلاجات</span></a>
+          <a class="category" href="#products">🧺<span>غسالات</span></a>
+          <a class="category" href="#products">❄️<span>تكييفات</span></a>
+          <a class="category" href="#products">📺<span>شاشات</span></a>
+          <a class="category" href="#products">🔥<span>بوتاجازات</span></a>
+          <a class="category" href="#products">🍟<span>Air Fryer</span></a>
+          <a class="category" href="#products">🌬️<span>شفاطات</span></a>
+          <a class="category" href="#products">⚡<span>ميكرويف وأفران</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section products-section">
+      <div class="container">
+        <div class="section-head">
+          <div><span class="eyebrow">اختيارات المتجر</span><h2>منتجات مميزة</h2></div>
+          <a href="#" class="view-all">عرض الكل ←</a>
+        </div>
+        <div class="products" id="productsGrid">
+          <article class="product">
+            <div class="product-img">🧊</div><span class="badge">جديد</span>
+            <div class="product-info"><small>ثلاجات</small><h3>ثلاجة منزلية</h3><p class="price">السعر عند الطلب</p><button onclick="addToCart()">أضف للسلة</button></div>
+          </article>
+          <article class="product">
+            <div class="product-img">🧺</div>
+            <div class="product-info"><small>غسالات</small><h3>غسالة أوتوماتيك</h3><p class="price">السعر عند الطلب</p><button onclick="addToCart()">أضف للسلة</button></div>
+          </article>
+          <article class="product">
+            <div class="product-img">📺</div><span class="badge">مميز</span>
+            <div class="product-info"><small>شاشات</small><h3>شاشة سمارت</h3><p class="price">السعر عند الطلب</p><button onclick="addToCart()">أضف للسلة</button></div>
+          </article>
+          <article class="product">
+            <div class="product-img">❄️</div>
+            <div class="product-info"><small>تكييفات</small><h3>تكييف سبليت</h3><p class="price">السعر عند الطلب</p><button onclick="addToCart()">أضف للسلة</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container features-grid">
+        <div>🚚<div><b>توصيل</b><small>حتى باب البيت</small></div></div>
+        <div>💳<div><b>دفع إلكتروني</b><small>بطاقات ومحافظ</small></div></div>
+        <div>🛡️<div><b>شراء آمن</b><small>بياناتك محمية</small></div></div>
+        <div>📞<div><b>خدمة العملاء</b><small>تواصل معنا بسهولة</small></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer">
+      <div><div class="logo"><span>المتولي</span><small>إليكتريك</small></div><p>أجهزة كهربائية منزلية لكل بيت.</p></div>
+      <div><h3>تواصل معنا</h3><p>📞 رقم الهاتف سيُضاف لاحقًا</p><p>💬 واتساب سيُضاف لاحقًا</p></div>
+    </div>
+    <div class="copyright">© 2026 المتولي إليكتريك — جميع الحقوق محفوظة</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

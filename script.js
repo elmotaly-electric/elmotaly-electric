@@ -1,0 +1,1 @@
+let cartCount=0;function addToCart(){cartCount++;document.getElementById('cartCount').textContent=cartCount;alert('تمت إضافة المنتج إلى السلة');}
